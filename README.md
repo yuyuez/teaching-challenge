@@ -2,6 +2,8 @@
 
 This folder contains code for a simple example for using sass.
 
+Please follow this video: https://drive.google.com/drive/folders/0B-lXDCQuFqi6cy1ydlVnMGlZUzQ?usp=sharing
+
 The below questions should be answered regarding your submission!
 
 ##### Did you receive help from any other sources (classmates, etc)? If so, please list who (be specific!). #####
