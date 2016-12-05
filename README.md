@@ -1,2 +1,3 @@
-# teaching-challenge
-a bonus assignment that teaches how to use SASS
+# 03 - CSS
+
+Code demoing CSS selectors, properties, and positioning. See lecture slides for further instructions.
