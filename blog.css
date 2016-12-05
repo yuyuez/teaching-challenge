@@ -79,7 +79,7 @@ header svg {
 section {
   padding-left: 2em;
   padding-right: 2em;
-  -webkit-transform: translateX(2000px);
+  -webkit-transform: translateX(14px);
   -moz-transform: translateX(14px);
   -ms-transform: translateX(14px);
   -o-transform: translateX(14px);
