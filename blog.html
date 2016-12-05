@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="blog.css"> <!--Change this css file to your output.css once you finish--> 
+</head>
+<body class="content-container">  
+  
+  <header class="page-header" role="banner">
+    <svg enable-background="new 0 0 24 24" id="Layer_1" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M23,4h-9l3.1-3.1c0.2-0.2,0.2-0.5,0-0.7c-0.2-0.2-0.5-0.2-0.7,0L12.6,4h-1.1L7.6,0.2C7.4,0,7.1,0,6.9,0.2   c-0.2,0.2-0.2,0.5,0,0.7L10,4H1C0.4,4,0,4.4,0,5v18c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V5C24,4.4,23.6,4,23,4z M22,22H2V6h20V22z"/><circle cx="20" cy="8" r="1"/><circle cx="20" cy="11" r="1"/><circle cx="20" cy="14" r="1"/><path d="M16,7H5C3.9,7,3,7.9,3,9v10c0,1.1,0.9,2,2,2h11c1.1,0,2-0.9,2-2V9C18,7.9,17.1,7,16,7z M17,19c0,0.6-0.4,1-1,1H5   c-0.6,0-1-0.4-1-1V9c0-0.6,0.4-1,1-1h11c0.6,0,1,0.4,1,1V19z"/></g></svg>
+    <h1>
+      <!--<i class="fa fa-paw" aria-hidden="true"></i> -->
+      My Awesome Blog</h1>
+    <p>Where I post about stuff</p>
+  </header>
+
+  <div class="sidebar-container">
+
+  <nav role="navigation">
+    <h2>Navigation</h2>
+    <ul>
+      <li><a href="#post3">Check it out!</a></li>
+      <li><a href="#post2">An update</a></li>
+      <li><a href="#post1">A blog post!</a></li>
+    </ul>
+    <p><a href="#comment">Leave a comment</a></p>
+  </nav>
+
+  <main role="main">
+    <section role="region" id="post3">
+      <header class="post-header">
+        <h2>Check it out!</h2>
+        <p>Posted today</p>
+      </header>
+      <p>Check out this cute puppy!</p>
+      <p><img src="img/gzvWJQMuibX5ISaVpCu17h.jpg" alt="a husky puppy"></p>
+      <p>Also, lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ea amet rem vel ipsa odit esse iste facilis inventore earum.</p>
+      <p>Lorem ipsum dolor sit!</p>
+    </section>
+
+    <section role="region" id="post2">
+      <header class="post-header">
+        <h2>An update</h2>
+        <p>Posted yesterday</p>
+      </header>
+      <div class="green-rectangle" aria-label="a giant green rectangle"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi perferendis magni odio soluta iure, culpa libero reiciendis hic. Possimus quis, fuga, quos aspernatur velit necessitatibus ex blanditiis asperiores magnam molestiae.</p>
+      <p>Sit provident cumque, quam architecto voluptatibus ipsam iusto nihil possimus unde assumenda quis sint consectetur quas sapiente, nemo dicta libero reiciendis, cupiditate eaque laudantium, animi fugiat dolorum iure. Nobis, praesentium!</p>
+      <p>Voluptate, necessitatibus, rerum voluptas quam veniam suscipit recusandae provident. Sit at vero expedita ipsam veniam, blanditiis reprehenderit est illum doloribus labore dolore? Incidunt placeat vero, numquam quibusdam labore! Ipsum, error.</p>
+      <ul>
+        <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+        <li>Donec id elit non mi porta gravida at eget metus.</li>
+        <li>Nulla vitae elit libero, a pharetra augue.</li>
+      </ul>      
+      <p>Cumque ipsa sapiente error placeat animi quas maiores esse non, culpa neque consequatur quaerat tempore ut iusto laborum modi a dolor aut consequuntur assumenda, cupiditate maxime eos harum blanditiis voluptatem.</p>
+    </section>
+
+    <section role="region" id="post1">
+      <header class="post-header">
+        <h2>A blog post!</h2>
+        <p>Posted last week</p>
+      </header>
+      <p>You're looking at this? Really? Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+      <blockquote>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</blockquote>
+      <p>Veniam dolorem cupiditate tenetur placeat nulla repellat dicta maxime architecto blanditiis non facere nesciunt quae animi quam quidem ullam, suscipit nisi ipsam voluptatem accusamus necessitatibus itaque autem in, sunt similique.</p>
+      <p>In mollitia cumque sapiente ducimus quo labore magni qui quas aperiam, voluptatibus nesciunt dicta enim dignissimos doloribus tempora iusto commodi alias recusandae tempore beatae atque? Totam cum et, perferendis itaque.</p>
+      <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+    </section>
+
+    <section class="comment">
+      <h2>Comments</h2>
+      <form role="form">
+        <label for="commentBox">Leave a short comment on this blog: </label>
+        <input type="text" id="commentBox" name="comment">
+        <button><i class="fa fa-comment-o" aria-label="submit comment"></i></button>
+      </form>
+    </section>
+
+  </main>
+
+  </div>
+
+  <footer role="contentinfo">
+    <p>This blog was created by me using my own two hands. Some text grabbed from <a href="https://getbootstrap.com/examples/blog/">Bootstrap's blog example</a>.</p>
+    <p>&copy; 2016 The Author.</p>
+  </footer>
+</body>
+</html>
